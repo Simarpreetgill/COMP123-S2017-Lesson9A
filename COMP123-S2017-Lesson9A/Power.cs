@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Date- July11,2017
  * Description-THis is the new Power data type
  * derive from
- * Version- 0.1 - Power Class created
+ * Version- 0.1 - Add a custom constructor to assign name and rank
  */
 namespace COMP123_S2017_Lesson9A
 {
@@ -17,7 +17,15 @@ namespace COMP123_S2017_Lesson9A
     /// </summary>
     public class Power
     {
+        //PUBLIC PROPERTIES
         public string Name { get; set; }
         public int Rank { get; set; }
+
+        //CONSTRUCTORS
+        public Power(string name, int rank)
+        {
+            this.Name = name;
+            this.Rank = rank;
+        }
     }
 }
