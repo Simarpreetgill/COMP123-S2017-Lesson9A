@@ -1,17 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="COMP123_S2017_Lesson9A.SuperHuman" Collapsed="true">
-    <Position X="6.5" Y="2" Width="1.5" />
+  <Class Name="COMP123_S2017_Lesson9A.SuperHuman">
+    <Position X="6.75" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
       <FileName>SuperHuman.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="COMP123_S2017_Lesson9A.Human" Collapsed="true">
-    <Position X="3" Y="2" Width="1.5" />
+  <Class Name="COMP123_S2017_Lesson9A.Human">
+    <Position X="3" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Human.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="COMP123_S2017_Lesson9A.Power">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Power.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

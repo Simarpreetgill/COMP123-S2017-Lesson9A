@@ -18,6 +18,6 @@ namespace COMP123_S2017_Lesson9A
     public class Power
     {
         public string Name { get; set; }
-        public int rank { get; set; }
+        public int Rank { get; set; }
     }
 }
