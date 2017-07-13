@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 /* 
  * Name- Simar Gill
  * Date- July11,2017
- * Description-This is the SuperHuman sub class
- * Version- 0.2 - Added Public AddPower Method
+ * Description-This is the SuperHuman class that extends the Human abstract class
+ * Version- 0.5 - Added the overriden ToString
  */
 namespace COMP123_S2017_Lesson9A
 {
@@ -54,11 +54,28 @@ namespace COMP123_S2017_Lesson9A
         }
         public void DisplayPowers()
         {
-            foreach(var power in Powers)
+            foreach(Power power in this.Powers)
             {
-                Console.WriteLine("Name: " + power.Name  + "Rank:"  + power.Rank);
+                Console.WriteLine("Name:  " + power.Name  + "Rank: "  + power.Rank);
                 
             }
+        }
+        /// <summary>
+        /// This ToString method overrides the built-in object.ToString Method
+        /// It outputs a string that displays the superhuman's name and their power list.
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            string outputString = "----------------------------------------------------------";
+            outputString += "Super Human Name:" + this.Name + "\n";
+            outputString = "-----------------------------------------------------------------";
+            foreach (Power power in this.Powers)
+            {
+                outputString += "Power:" + power.Name + "Rank:" + power.Rank + "\n";
+            }
+            outputString = "-----------------------------------------------------------------";
+            return outputString;
         }
     }
 }
